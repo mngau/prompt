@@ -13,7 +13,7 @@ setopt prompt_subst
 autoload -U colors && colors
 
 # The arrow symbol that is used in the prompt
-PR_ARROW_CHAR="U+2615 U+1F359 "
+PR_ARROW_CHAR="\xE2\x98\x95 \xF0\x9F\x8D\x99 "
 RPR_SHOW_USER=false
 RPR_SHOW_HOST=false
 PROMPT_MODE=0
